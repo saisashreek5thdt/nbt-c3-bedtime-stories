@@ -13,8 +13,8 @@ export default function Home() {
             className="w-14 h-14 animate-pulse cursor-pointer"
           />          
         </div>
-        <div className="flex items-center justify-center p-0">
-            <img src={coverBG} alt="Chandrayaan 3" className="w-[38rem]" />
+        <div className="flex items-center justify-center lg:bottom-4 xl:p-0">
+            <img src={coverBG} alt="Chandrayaan 3" className="md:w-[29rem] lg:w-[30rem] xl:w-[38rem] lg:bottom-8 xl:bottom-0" />
           </div>
       </section>
       <FooterMain />
