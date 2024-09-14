@@ -10,8 +10,6 @@ export default defineConfig({
       injectRegister: "auto",
       registerType: "autoUpdate",
       strategies: "injectManifest",
-      srcDir: "src",
-      filename: "sw.js",
       includeAssets: [
         "src/assets/images/meta/favicon.ico",
         "src/assets/images/meta/apple-touch-icon.png",
