@@ -20,7 +20,7 @@ export default function Page1() {
 
   return (
     <>
-      <section className="w-[100vw] h-[100vh] page1 bg-cover overflow-hidden">
+      <section className="w-full h-full page1 bg-contain overflow-hidden">
         <div className="grid grid-cols-10 gap-4">
           {/* <div className="col-span-6">
             <p className="p-12 text-lg font-medium">
@@ -31,9 +31,9 @@ export default function Page1() {
               Veer loves to hear these stories.
             </p>
           </div> */}
-          {/* <div className="col-span-4 flex items-start justify-start">
+          <div className="col-span-4 flex items-start justify-start">
             <img src={satellite} alt="Satellite" className="w-40 h-40 pt-8 mx-96 animate-pulse" />
-          </div> */}
+          </div>
         </div>
         <div className="m-64 grid grid-cols-10 gap-2">
           <div></div>
@@ -55,7 +55,7 @@ export default function Page1() {
                 </p>
               </div> */}
               <div className="flex gap-4 items-end justify-end">
-                <img src={speaker} alt="Speaker Icon" className="cursor-pointer" />
+                <img src={speaker} alt="Speaker Icon" className="cursor-pointer flex items-end justify-end" />
               </div>
             </div>
           </div>

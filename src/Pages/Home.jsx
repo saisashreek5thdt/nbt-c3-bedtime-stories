@@ -5,7 +5,7 @@ import coverBG from "../assets/images/home/homePageBG1.png"
 export default function Home() {
   return (
     <>
-      <section className="w-[100vw] h-[100vh] bgHome">
+      <section className="w-[100vw] h-[135vh] bgHome overflow-hidden">
         <div className="flex items-end justify-end pr-5 py-10">
           <img
             src={lang}
@@ -14,7 +14,7 @@ export default function Home() {
           />          
         </div>
         <div className="flex items-center justify-center lg:bottom-4 xl:p-0">
-            <img src={coverBG} alt="Chandrayaan 3" className="md:w-[29rem] lg:w-[30rem] xl:w-[38rem] lg:bottom-8 xl:bottom-0" />
+            <img src={coverBG} alt="Chandrayaan 3" className="md:w-[20rem] lg:w-[25rem] xl:w-[38rem] lg:bottom-8 xl:bottom-0" />
           </div>
       </section>
       <FooterMain />
