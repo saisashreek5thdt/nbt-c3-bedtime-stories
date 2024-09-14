@@ -1,5 +1,6 @@
 import FooterMain from "../Components/FooterMain";
 import lang from "../assets/images/icons/lang.png";
+import coverBG from "../assets/images/home/homePageBG1.png"
 
 export default function Home() {
   return (
@@ -10,8 +11,11 @@ export default function Home() {
             src={lang}
             alt="Language Icon"
             className="w-14 h-14 animate-pulse cursor-pointer"
-          />
+          />          
         </div>
+        <div className="flex items-center justify-center p-0">
+            <img src={coverBG} alt="Chandrayaan 3" className="w-[38rem]" />
+          </div>
       </section>
       <FooterMain />
     </>

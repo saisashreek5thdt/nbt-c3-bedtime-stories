@@ -12,12 +12,13 @@
 
 @layer components {
   .bgHome {
-    background-image: url("./assets/images/home/bg-home-1.png");
+    background-image: url("./assets/images/home/bg-home-2.png");
     background-repeat: no-repeat;
+    position: absolute;
   }
 
   .page1 {
-    background-image: url("./assets/images/pages/page1BG.png");
+    background-image: url("./assets/images/pages/page1aBG.png");
     background-repeat: no-repeat;
   }
 
@@ -29,9 +30,10 @@
     }
 
     .page1 {
-      background-image: url("./assets/images/pages/page1BG.png");
+      background-image: url("./assets/images/pages/page1aBG.png");
       background-repeat: no-repeat;
       background-size: cover;
+      position: absolute;
       width: 100%;
     }
   }
