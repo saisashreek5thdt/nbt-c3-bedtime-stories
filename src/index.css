@@ -11,31 +11,53 @@
 }
 
 @layer components {
+  body {
+    overflow: hidden;
+  }
+
   .bgHome {
     background-image: url("./assets/images/home/bg-home-2.png");
     background-repeat: no-repeat;
-    position: absolute;
   }
 
   .page1 {
-    background-image: url("./assets/images/pages/page1aBG.png");
+    background-image: url("./assets/images/pages/page1BG.png");
     background-repeat: no-repeat;
   }
 
+  .page3 {
+    background-image: url("./assets/images/pages/page4BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .page4 {
+    background-image: url("./assets/images/pages/page3BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   @media screen and (min-width: 1024px) {
-
     body {
       overflow: hidden;
     }
 
     .page1 {
-      background-image: url("./assets/images/pages/page1aBG.png");
+      background-image: url("./assets/images/pages/page1BG.png");
       background-repeat: no-repeat;
       background-size: cover;
-      position: absolute;
-      width: 100%;
+    }
+
+    .page3 {
+      background-image: url("./assets/images/pages/page4BG.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .page4 {
+      background-image: url("./assets/images/pages/page3BG.png");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
-
 }

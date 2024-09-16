@@ -15,12 +15,12 @@ export default function Page1() {
   };
 
   const nextPageHandler = () => {
-    navigate("/books/page1/");
+    navigate("/books/page2/");
   };
 
   return (
     <>
-      <section className="w-full h-full page1 bg-contain overflow-hidden">
+      <section className="w-full h-full page1 bg-cover overflow-hidden">
         <div className="grid grid-cols-10 gap-4">
           {/* <div className="col-span-6">
             <p className="p-12 text-lg font-medium">
@@ -31,7 +31,7 @@ export default function Page1() {
               Veer loves to hear these stories.
             </p>
           </div> */}
-          <div className="col-span-4 flex items-start justify-start">
+          <div className="col-span-4 flex items-end justify-end">
             <img src={satellite} alt="Satellite" className="w-40 h-40 pt-8 mx-96 animate-pulse" />
           </div>
         </div>
