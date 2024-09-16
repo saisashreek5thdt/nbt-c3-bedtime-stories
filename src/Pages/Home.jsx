@@ -28,11 +28,11 @@ export default function Home() {
             className="w-14 h-14 animate-pulse cursor-pointer"
           />
         </div>
-        <div className="flex items-center justify-center">
+        <div className="xl:w-[28rem] mx-auto flex items-center justify-center">
           <img
             src={coverBG}
             alt="Chandrayaan 3"
-            className="md:w-[20rem] xl:w-[30rem] 2xl:w-[38rem] xl:bottom-36 2xl:bottom-48"
+            className="2xl:w-[38rem] 2xl:bottom-48"
           />
         </div>
       </section>
