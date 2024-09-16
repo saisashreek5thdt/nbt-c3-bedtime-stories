@@ -26,7 +26,7 @@ export default function Page1() {
           <p className="p-16 text-justify text-xl font-medium select-none">
             Ten year old Veer is a very intelligent and curious boy. He and his
             Dadaji are great friends. They sleep in the same room. At bedtime
-            before sleeping asleep, Dadaji makes up interesting stories on any
+            before falling sleeping asleep, Dadaji makes up interesting stories on any
             topic that he feels little Veer should be aware of. Veer loves to
             hear these stories.
           </p>
