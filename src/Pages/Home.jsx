@@ -28,7 +28,7 @@ export default function Home() {
             className="w-14 h-14 animate-pulse cursor-pointer"
           />
         </div>
-        <div className="xl:w-[28rem] mx-auto flex items-center justify-center">
+        <div className="xl:w-[30rem] xl:max-h-80 mx-auto top-12 flex items-center justify-center">
           <img
             src={coverBG}
             alt="Chandrayaan 3"
