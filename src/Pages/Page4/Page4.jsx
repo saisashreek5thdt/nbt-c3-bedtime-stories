@@ -23,8 +23,8 @@ export default function Page4() {
         onPrev={onPrevPageHandler}
         onClick={indexBTNHandler}
         onNext={onNextPageHandler}
-        pageNum1="07"
-        pageNum2="08"
+        pageNum1="08"
+        pageNum2="09"
       />
     </>
   );

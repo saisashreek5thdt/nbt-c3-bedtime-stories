@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import FooterPage from "../../Components/FooterPage";
+import speaker from "../../assets/images/icons/speaker.png";
 
 export default function Page2() {
   const navigate = useNavigate();
@@ -18,13 +19,41 @@ export default function Page2() {
 
   return (
     <>
-      <section className="w-full h-full bg-slate-100 bg-contain overflow-hidden"></section>
+      <section className="w-[100vw] h-[100vh] page3 bg-cover overflow-hidden select-none">
+        <div className="px-[4rem] py-10 flex gap-[37rem]">
+          <div></div>
+          <div className="py-6 flex flex-col items-start justify-around gap-4">
+            <p className="px-20 mx-12 text-lg text-justify font-medium self-end justify-items-end">
+              Veer - Dadaji, this morning while cleaning my room, I saw the
+              picture of a spacecraft on the moon on the front page of a
+              newspaper. There were also pictures of people celebrating. I want
+              to know why this news was so important that day.
+            </p>
+            <p className="px-20 mx-12 text-lg text-justify font-medium">
+              Dadaji&apos;s eyes twinkle. He had been expecting this question
+              from Veer for quite some time now. He knew about the forthcoming
+              workshop in the boy&apos;s school, and had seen his excited
+              preparations.
+            </p>
+            <p className="px-20 mx-12 text-lg text-justify font-medium">
+              Dadaji - What is so special about the moon today?
+            </p>
+            <p className="px-20 mx-12 text-lg text-justify font-medium">
+              <img
+                src={speaker}
+                alt="Speaker Icon"
+                className="h-14 cursor-pointer flex justify-end items-end"
+              />
+            </p>
+          </div>
+        </div>
+      </section>
       <FooterPage
         onPrev={onPrevPageHandler}
         onClick={indexBTNHandler}
         onNext={onNextPageHandler}
-        pageNum1="03"
-        pageNum2="04"
+        pageNum1="04"
+        pageNum2="05"
       />
     </>
   );

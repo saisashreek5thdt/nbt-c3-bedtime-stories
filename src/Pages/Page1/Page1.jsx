@@ -21,7 +21,7 @@ export default function Page1() {
 
   return (
     <>
-      <section className="w-[100vw] h-[100vh] page1 bg-cover">
+      <section className="w-[100vw] h-[100vh] page1 bg-cover select-none">
         <div className="flex gap-10">
           <p className="p-16 text-justify text-xl font-medium select-none">
             Ten year old Veer is a very intelligent and curious boy. He and his
@@ -67,8 +67,8 @@ export default function Page1() {
         </div>
       </section>
       <FooterPage
-        pageNum1="01"
-        pageNum2="02"
+        pageNum1="02"
+        pageNum2="03"
         onClick={urlPathHandler}
         onPrev={prevPageHandler}
         onNext={nextPageHandler}
