@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="w-[100vw] h-[135vh] bgHome overflow-hidden">
+      <section className="w-[100vw] h-[100vh] bgHome overflow-hidden">
         <div
           className="flex items-end justify-end pr-5 py-10"
           onClick={() => setOpen(true)}
@@ -28,11 +28,11 @@ export default function Home() {
             className="w-14 h-14 animate-pulse cursor-pointer"
           />
         </div>
-        <div className="flex items-center justify-center lg:bottom-4 xl:p-0">
+        <div className="flex items-center justify-center">
           <img
             src={coverBG}
             alt="Chandrayaan 3"
-            className="md:w-[20rem] lg:w-[25rem] xl:w-[38rem] lg:bottom-8 xl:bottom-0"
+            className="md:w-[20rem] xl:w-[30rem] 2xl:w-[38rem] xl:bottom-36 2xl:bottom-48"
           />
         </div>
       </section>
