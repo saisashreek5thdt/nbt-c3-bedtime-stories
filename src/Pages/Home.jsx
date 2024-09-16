@@ -61,17 +61,17 @@ export default function Home() {
                       <div className="grid grid-cols-8 gap-4">
                         <div className="flex gap-4">
                           <h2 className="p-2 bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={() => navigate('/books/page1')}>English</h2>
-                          <h2 className="p-2 bg-teal-600 text-white rounded-lg shadow-lg cursor-pointer disabled:cursor-not-allowed">Hindi</h2>
-                          <h2 className="p-2 bg-teal-600 text-white rounded-lg shadow-lg cursor-pointer">Telugu</h2>
-                          <h2 className="p-2 bg-teal-600 text-white rounded-lg shadow-lg cursor-pointer">Tamil</h2>
-                          <h2 className="p-2 bg-teal-600 text-white rounded-lg shadow-lg cursor-pointer">Assmese</h2>
-                          <h2 className="p-2 bg-teal-600 text-white rounded-lg shadow-lg cursor-pointer">Gujarathi</h2>
-                          <h2 className="p-2 bg-teal-600 text-white rounded-lg shadow-lg cursor-pointer">Kannada</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">हिंदी</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">తెలుగు</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">தமிழ்</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">অসমীয়া</h2>
                         </div>                        
                       </div>
                       <div className="py-4 grid grid-cols-8 gap-4">
                         <div className="flex gap-4">
-                          <h2 className="p-2 bg-teal-600 text-white rounded-lg shadow-lg cursor-pointer">Malyalam</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">ગુજરાતી</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">ಕನ್ನಡ</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">മലയാളം</h2>
                         </div>
                       </div>
                     </div>

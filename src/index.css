@@ -21,8 +21,9 @@
   }
 
   .page1 {
-    background-image: url("./assets/images/pages/page1BG.png");
+    background-image: url("./assets/images/Page1/BG.png");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .page3 {
@@ -43,7 +44,7 @@
     }
 
     .page1 {
-      background-image: url("./assets/images/pages/page1BG.png");
+      background-image: url("./assets/images/Page1/BG.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
