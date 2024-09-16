@@ -38,9 +38,13 @@ export default function Page1() {
             />
           </div>
         </div>
-        <div className="flex absolute">
-          <img src={bed} alt="moon earth space" className="xl:h-[75vh] 2xl:h-[75vh] relative xl:bottom-[10rem] 2xl:bottom-[22rem] bg-cover" />
-          <div className="flex flex-col gap-5 relative xl:right-64 xl:top-12 2xl:right-64 xl:bottom-16 2xl:bottom-16">
+        <div className="flex absolute xl:top-[30rem]">
+          <img
+            src={bed}
+            alt="moon earth space"
+            className="relative 2xl:h-[75vh] 2xl:bottom-[22rem] bg-cover"
+          />
+          <div className="flex flex-col gap-5 relative xl:right-64 xl:-mt-[3rem] 2xl:right-64 xl:bottom-28 2xl:bottom-16">
             <p className="text-justify text-xl font-medium select-none">
               Veer&apos;s school was soon to hold a workshop on Space. Veer
               wanted to actively participate in this workshop. He was very
@@ -53,13 +57,13 @@ export default function Page1() {
             <p className="text-justify text-xl font-medium select-none">
               Veer - Dadaji, tell me a story about space, the moon, and
               astronauts.
-            </p>            
+            </p>
           </div>
           <img
-              src={speaker}
-              alt="Speaker Icon"
-              className="h-[25%] cursor-pointer relative xl:right-36 2xl:right-28 xl:top-28 xl:bottom-8 2xl:bottom-5"
-            />
+            src={speaker}
+            alt="Speaker Icon"
+            className="h-14 cursor-pointer relative xl:-mt-[6rem] xl:right-36 2xl:right-28 xl:top-12 xl:bottom-8 2xl:bottom-5"
+          />
         </div>
       </section>
       <FooterPage
