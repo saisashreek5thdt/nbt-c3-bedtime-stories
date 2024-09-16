@@ -22,15 +22,15 @@ export default function Page1() {
     <>
       <section className="w-full h-full page1 bg-cover overflow-hidden">
         <div className="grid grid-cols-10 gap-4">
-          {/* <div className="col-span-6">
-            <p className="p-12 text-lg font-medium">
+          <div className="col-span-6">
+            <p className="py-[80px] mx-[25px] text-lg font-medium">
               Ten year old Veer is a very intelligent and curious boy. He and
               his Dadaji are great friends. They sleep in the same room. At
               bedtime before sleeping asleep, Dadaji makes up interesting
               stories on any topic that he feels little Veer should be aware of.{" "}
               Veer loves to hear these stories.
             </p>
-          </div> */}
+          </div>
           <div className="col-span-4 flex items-end justify-end">
             <img src={satellite} alt="Satellite" className="w-40 h-40 pt-8 mx-96 animate-pulse" />
           </div>
@@ -39,7 +39,7 @@ export default function Page1() {
           <div></div>
           <div className="py-36 mx-80 w-full col-span-8">
             <div className="flex gap-4">
-              {/* <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-6">
                 <p className="text-lg font-medium">
                   Veer&apos;s school was soon to hold a workshop on Space. Veer
                   wanted to actively participate in this workshop. He was very
@@ -53,7 +53,7 @@ export default function Page1() {
                   Veer - Dadaji, tell me a story about space, the moon, and
                   astronauts.
                 </p>
-              </div> */}
+              </div>
               <div className="flex gap-4 items-end justify-end">
                 <img src={speaker} alt="Speaker Icon" className="cursor-pointer flex items-end justify-end" />
               </div>
