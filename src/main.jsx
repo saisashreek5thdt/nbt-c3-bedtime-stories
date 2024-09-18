@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home, Page1, Page2, Page3, Page4 } from "./Pages/index.js";
+import { Quiz1 } from "./Quiz/index.js";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     path: "/books/page4",
     element: <Page4 />,
   },
+  {
+    path: "/quiz/quiz1",
+    element: <Quiz1 />
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
