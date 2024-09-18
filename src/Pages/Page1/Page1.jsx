@@ -2,8 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FooterPage from "../../Components/FooterPage";
 import speaker from "../../assets/images/icons/speaker.png";
-import moon from "../../assets/images/Page1/moon.png";
-import moon1 from "../../assets/images/Page1/moon.gif";
+import moon from "../../assets/images/Page1/moonBG.gif";
 import bed from "../../assets/images/Page1/bed.png";
 import ReactAudioPlayer from "react-audio-player";
 import page1Audio from "../../assets/audio/Page1.mp3"
@@ -44,11 +43,6 @@ export default function Page1() {
               src={moon}
               alt="moon earth space"
               className="w-full bg-cover"
-            />
-            <img
-              src={moon1}
-              alt="moon earth space"
-              className="w-full bg-cover bottom-10"
             />
           </div>
         </div>
