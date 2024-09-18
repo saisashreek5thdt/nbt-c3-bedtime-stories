@@ -14,7 +14,7 @@ export default function Page3() {
   };
 
   const onNextPageHandler = () => {
-    navigate("/books/page3/");
+    navigate("/quiz/quiz1/");
   };
 
   return (
