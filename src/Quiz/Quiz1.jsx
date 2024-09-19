@@ -8,7 +8,7 @@ export default function Quiz1() {
   const questionsData = [
     {
       question: "Who made Princess Happy?",
-      options: ["King", "courtiers", "Saint", "Ministers"],
+      options: ["King", "Courtiers", "Saint", "Ministers"],
       correctAnswer: "Saint",
     },
     {
@@ -80,7 +80,7 @@ export default function Quiz1() {
 
   return (
     <>
-      <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-4 select-none">
+      <div className="min-h-screen quizBG flex flex-col justify-center items-center p-4 select-none">
         {step < questionsData.length ? (
           <QuizQues
             question={questionsData[step].question}

@@ -59,7 +59,7 @@ export default function QuizQues({
         </div>
         <button
           onClick={handleSubmit}
-          className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700"
+          className="mt-4 bg-[#c4122f] text-white px-4 py-2 rounded hover:bg-[#d5546a]"
         >
           Submit
         </button>
