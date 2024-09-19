@@ -8,6 +8,13 @@
   body {
     font-family: "Jost";
   }
+
+  @font-face {
+    font-family: 'AMS';
+    font-style: normal;
+    font-weight: 700;
+    src: url(assets/fonts/AMS.ttf) format('ttf');
+  }
 }
 
 @layer components {

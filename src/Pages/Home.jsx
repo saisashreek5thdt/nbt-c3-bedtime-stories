@@ -15,6 +15,16 @@ export default function Home() {
 
   const navigate = useNavigate();
 
+  const lang02PathHandler = (e) => {
+    e.preventDefault();
+    navigate("/lang_02/page1/");
+  }
+
+  const lang03PathHandler = (e) => {
+    e.preventDefault();
+    navigate("/lang_03/page1/");
+  }
+
   return (
     <>
       <section className="w-[100vw] h-[100vh] bgHome overflow-hidden">
@@ -61,8 +71,8 @@ export default function Home() {
                       <div className="grid grid-cols-8 gap-4">
                         <div className="flex gap-4">
                           <h2 className="p-2 bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={() => navigate('/books/page1')}>English</h2>
-                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">हिंदी</h2>
-                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">తెలుగు</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={lang02PathHandler}>हिंदी</h2>
+                          <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={lang03PathHandler}>తెలుగు</h2>
                           <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">தமிழ்</h2>
                           <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">অসমীয়া</h2>
                         </div>                        

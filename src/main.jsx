@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home, Page1, Page2, Page3, Page4 } from "./Pages/index.js";
+import { HindiPage1, TeluguPage1 } from "./Lang/index.js";
 import { Quiz1 } from "./Quiz/index.js";
 
 const router = createBrowserRouter([
@@ -29,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "/quiz/quiz1",
     element: <Quiz1 />
+  },
+  {
+    path: "/lang_02/page1/",
+    element: <HindiPage1 />
+  },
+  {
+    path:"/lang_03/page1/",
+    element: <TeluguPage1 />
   }
 ]);
 
