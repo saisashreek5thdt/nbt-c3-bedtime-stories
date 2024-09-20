@@ -22,7 +22,17 @@ export default function Page3() {
         <div className="px-[4rem] py-10 flex gap-[37rem]">
           <div></div>
           <div className="py-12 flex flex-col items-start justify-around gap-4">
-            <p className="px-20 mx-12 text-lg text-justify font-medium text-slate-300">
+            <p className="px-2 pr-60 text-lg text-justify font-medium text-white">
+              Dadaji - Veer, it was a very great day in the history of space
+              research, as well as of India. Modiji has rightly named 23 August
+              as National Space Day. But first let me tell you a small story
+              about the moon which I heard from my grandmother when I was your
+              age.
+            </p>
+            <p className="px-20 mx-12 text-lg text-justify font-medium text-white">
+              Veer - Wow! Tell me quickly, Dadaji.
+            </p>
+            <p className="px-20 mx-12 text-lg text-justify font-medium text-white">
               Dadaji - Once upon a time, a young princess wanted to go to the
               moon. The king didn&apos;t know how to fulfil his daughter&apos;s
               foolish wish. He promised a huge reward for anyone who would
@@ -35,16 +45,6 @@ export default function Page3() {
             </p>
             <p className="px-20 mx-12 text-lg text-justify font-medium text-white">
               Saint- Tell me, little one, how big is the moon?
-            </p>
-            <p className="px-20 mx-12 text-lg text-justify font-medium text-white">
-              Dadaji - Veer, it was a very great day in the history of space
-              research, as well as of India. Modiji has rightly named 23 August
-              as National Space Day. But first let me tell you a small story
-              about the moon which I heard from my grandmother
-              when I was your age.
-            </p>
-            <p className="px-20 mx-12 text-lg text-justify font-medium text-white">
-            Veer - Wow! Tell me quickly, Dadaji.
             </p>
           </div>
         </div>
