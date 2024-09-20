@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import FooterPage from "../../Components/FooterPage";
-import speaker from "../../assets/images/icons/speaker.png";
 
 export default function Page3() {
   const navigate = useNavigate();
@@ -46,13 +45,6 @@ export default function Page3() {
             </p>
             <p className="px-20 mx-12 text-lg text-justify font-medium text-white">
             Veer - Wow! Tell me quickly, Dadaji.
-            </p>
-            <p className="px-20 mx-12 text-lg text-end font-medium">
-              <img
-                src={speaker}
-                alt="Speaker Icon"
-                className="h-14 cursor-pointer flex justify-end items-end"
-              />
             </p>
           </div>
         </div>

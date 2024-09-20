@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import FooterPage from "../../Components/FooterPage";
-import speaker from "../../assets/images/icons/speaker.png";
 
 export default function Page2() {
   const navigate = useNavigate();
@@ -37,13 +36,6 @@ export default function Page2() {
             </p>
             <p className="px-20 mx-12 text-lg text-justify font-medium">
               Dadaji - What is so special about the moon today?
-            </p>
-            <p className="px-20 mx-12 text-lg text-justify font-medium">
-              <img
-                src={speaker}
-                alt="Speaker Icon"
-                className="h-14 cursor-pointer flex justify-end items-end"
-              />
             </p>
           </div>
         </div>

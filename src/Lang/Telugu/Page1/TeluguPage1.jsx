@@ -1,19 +1,11 @@
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FooterPage from "../../../Components/FooterPage";
-import speaker from "../../../assets/images/icons/speaker.png";
 import moon from "../../../assets/images/Page1/moonBG.gif";
 import bed from "../../../assets/images/Page1/bed.png";
-import ReactAudioPlayer from "react-audio-player";
 import page1Audio from "../../../assets/audio/Page1.mp3";
 
 export default function TeluguPage1() {
-  const [isPlaying, setIsPlaying] = useState(false);
   const navigate = useNavigate();
-
-  const handlePlayPause = () => {
-    setIsPlaying((prevState) => !prevState);
-  };
 
   const urlPathHandler = () => {
     navigate("/");
@@ -67,21 +59,15 @@ export default function TeluguPage1() {
               ఒక కథ చెప్పండి.
             </p>
           </div>
-          <img
-            src={speaker}
-            alt="Speaker Icon"
-            className="h-14 cursor-pointer relative xl:-mt-[6rem] xl:right-36 2xl:right-28 xl:top-12 xl:bottom-8 2xl:bottom-5"
-            onClick={handlePlayPause}
-          />
         </div>
       </section>
-      {isPlaying && <ReactAudioPlayer src={page1Audio} autoPlay />}
       <FooterPage
         pageNum1="02"
         pageNum2="03"
         onClick={urlPathHandler}
         onPrev={prevPageHandler}
         onNext={nextPageHandler}
+        audioSRC={page1Audio}
       />
     </>
   );
