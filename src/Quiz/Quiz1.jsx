@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import FooterPage from "../Components/FooterPage";
+import FooterPage from "../Components/FooterQuiz";
 import { useState } from "react";
 import QuizQues from "./QuizQues";
 import Scoreboard from "./Scoreboard";
