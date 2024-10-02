@@ -12,7 +12,7 @@ export default function Page1() {
   };
 
   const prevPageHandler = () => {
-    navigate("/");
+    navigate("/about/author/");
   };
 
   const nextPageHandler = () => {

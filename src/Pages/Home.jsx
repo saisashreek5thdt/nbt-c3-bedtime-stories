@@ -70,7 +70,7 @@ export default function Home() {
                     <div className="mt-2">
                       <div className="grid grid-cols-8 gap-4">
                         <div className="flex gap-4">
-                          <h2 className="p-2 bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={() => navigate('/books/page1')}>English</h2>
+                          <h2 className="p-2 bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={() => navigate('/about/author/')}>English</h2>
                           <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={lang02PathHandler}>हिंदी</h2>
                           <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer" onClick={lang03PathHandler}>తెలుగు</h2>
                           <h2 className="p-2 bg-[#e25a71] hover:bg-[#c4122f] text-white rounded-lg shadow-lg cursor-pointer">தமிழ்</h2>
