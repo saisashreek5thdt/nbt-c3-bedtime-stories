@@ -16,7 +16,7 @@ export default function TeluguPage1() {
   };
 
   const nextPageHandler = () => {
-    navigate("/");
+    navigate("/lang_03/page1/");
   };
 
   return (

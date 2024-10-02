@@ -16,7 +16,7 @@ export default function HindiPage1() {
   };
 
   const nextPageHandler = () => {
-    navigate("/");
+    navigate("/lang_02/page1/");
   };
 
   return (
