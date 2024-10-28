@@ -20,8 +20,8 @@ export default function Author() {
   return (
     <>
       <section className="w-[100vw] h-[100vh] bg-cover select-none">
-        <div className="mx-auto md:p-10 lg:p-2 xl:p-16 grid grid-cols-2 gap-4">
-          <div className="md:py-5 lg:py-2 xl:py-0 flex flex-col gap-6">
+        <div className="mx-auto md:p-3 lg:p-1 xl:p-16 grid grid-cols-2 gap-4">
+          <div className="md:py-2 lg:py-1 xl:py-0 flex flex-col md:gap-2 lg:gap-2">
             <h2 className="text-start text-2xl font-medium">About Author</h2>
             <p className="text-justify text-base leading-8 font-normal text-slate-800">
               Yuvraj Malik is presently the Director, National Book Trust, India
