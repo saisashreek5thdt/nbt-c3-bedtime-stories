@@ -32,9 +32,9 @@ export default function Author() {
               areas in administrative and operational assignments.
             </p>
             <p className="text-justify text-base leading-8 font-normal text-slate-800">
-              He is also the Fair director / CEO of New Delhi World Book fair
-              which is the biggest B2C book fair in the world. He has also been
-              Chairman of Commission for Scientific & Technical Terminology
+              He is also the Fair Director / CEO of New Delhi World Book Fair
+              which is the biggest B2C Book Fair in the world. He has also been
+              the Chairman of Commission for Scientific & Technical Terminology
               (CSTT), Ministry of Education, Government of India.
             </p>
             <p className="text-justify text-base leading-8 font-normal text-slate-800">
